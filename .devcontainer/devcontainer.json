@@ -1,0 +1,11 @@
+{
+  "name": "AI Agent Workspace",
+  "postCreateCommand": "cd /workspaces/The-AI-Corporation && bash install.sh",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}

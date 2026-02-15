@@ -152,3 +152,14 @@ help-ai() {
 }
 
 echo "💡 Напиши help-ai для списка команд"
+
+# ==========================================
+# AUTO-RESTORE SYSTEM
+# ==========================================
+if [ ! -d "$HOME/.agent" ] && [ -d "/workspaces/The-AI-Corporation" ]; then
+    echo "🔄 Restoring AI system..."
+    bash /workspaces/The-AI-Corporation/install.sh > /dev/null 2>&1
+fi
+
+# Quick sync command
+alias sync-system='cd /workspaces/The-AI-Corporation && bash install.sh'
