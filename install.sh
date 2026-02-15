@@ -9,6 +9,7 @@ fi
 
 # Копируем файлы
 cp .bashrc ~/.bashrc
+rm -rf ~/.agent
 cp -r .agent-system ~/.agent
 
 # Права на выполнение
