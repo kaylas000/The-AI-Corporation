@@ -1,0 +1,1 @@
+Total files in the current directory: 17

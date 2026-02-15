@@ -1,0 +1,5 @@
+model: groq/llama-3.3-70b-versatile
+auto-commits: true
+dark-mode: true
+map-tokens: 2048
+max-chat-history: 5
